@@ -1,0 +1,126 @@
+Law School
+IDI ratio: 46.13%
+––––––––––––––––––––––––––––––––––––––––
+Sensitive features used for discrimination testing: [‘male’, ‘race’]
+––––––––––––––––––––––––––––––––––––––––
+Generated samples represent 120% of the whole total dataset
+
+KDD
+IDI ratio: 27.1%
+––––––––––––––––––––––––––––––––––––––––
+Sensitive features used for discrimination testing: [‘age’, ‘sex’, ‘race’]
+––––––––––––––––––––––––––––––––––––––––
+Generated samples represent 400% of the whole total dataset
+
+Dutch
+IDI ratio: 0.0%
+––––––––––––––––––––––––––––––––––––––––
+Sensitive features used for discrimination testing: [‘sex’, ‘age’]
+––––––––––––––––––––––––––––––––––––––––
+Generated samples represent 400% of the whole total dataset
+
+Credit
+IDI ratio: 33.6%
+––––––––––––––––––––––––––––––––––––––––
+Sensitive features used for discrimination testing: [‘SEX’, ‘’AGE]
+––––––––––––––––––––––––––––––––––––––––
+Generated samples represent 300% of the whole total dataset
+
+Adult
+IDI ratio: 0.0%
+––––––––––––––––––––––––––––––––––––––––
+Sensitive features used for discrimination testing: [‘race’, ‘gender’, ‘age’]
+––––––––––––––––––––––––––––––––––––––––
+Generated samples represent 400.07% of the whole total dataset
+
+Compas
+IDI ratio: 38.38%
+––––––––––––––––––––––––––––––––––––––––
+Sensitive features used for discrimination testing: [‘PersonStatusSex’, ‘AgeInYears’]
+––––––––––––––––––––––––––––––––––––––––
+Generated samples represent 400.33% of the whole total dataset
+
+German
+IDI ratio: 28.1%
+––––––––––––––––––––––––––––––––––––––––
+Sensitive features used for discrimination testing: [‘Sex’, ‘Age’, ‘Race’]
+––––––––––––––––––––––––––––––––––––––––
+Generated samples represent 400% of the whole total dataset
+
+
+Law School:
+Real:
+Number of race-differing pairs: 2793
+Mean Spearman correlation: 0.826
+Min: 0.279, Max: 1.000
+2025-03-28 17:56:17.669 python[55748:15226884] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-28 17:56:17.669 python[55748:15226884] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+Synthetic:
+Number of race-differing pairs: 8320
+Mean Spearman correlation: 0.751
+Min: -0.111, Max: 1.000
+2025-03-28 17:58:14.298 python[55818:15228705] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-28 17:58:14.299 python[55818:15228705] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+
+Compas:
+Real:
+Number of race-differing pairs: 3036
+Mean Spearman correlation: 0.624
+Min: -0.325, Max: 1.000
+2025-03-28 18:02:13.762 python[55958:15232526] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-28 18:02:13.762 python[55958:15232526] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+
+Synthetic:
+Number of race-differing pairs: 17586
+Mean Spearman correlation: 0.563
+Min: -0.617, Max: 1.000
+2025-03-28 18:00:58.461 python[55930:15231399] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-28 18:00:58.461 python[55930:15231399] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+Dutch:
+Real:
+Number of sex-differing pairs: 15031
+Mean Spearman correlation: 0.950
+Min: 0.621, Max: 1.000
+2025-03-28 18:03:59.334 python[55994:15233780] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-28 18:03:59.334 python[55994:15233780] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+Synthetic:
+Number of sex-differing pairs: 48336
+Mean Spearman correlation: 0.916
+Min: 0.476, Max: 1.000
+2025-03-28 18:05:08.054 python[56012:15234399] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-28 18:05:08.054 python[56012:15234399] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+Credit:
+Real:
+Number of sex-differing pairs: 3642
+Mean Spearman correlation: 0.541
+Min: -0.756, Max: 1.000
+2025-03-28 18:07:20.313 python[56062:15236501] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-28 18:07:20.313 python[56062:15236501] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+Synthetic:
+Number of sex-differing pairs: 27000
+Mean Spearman correlation: 0.446
+Min: -0.547, Max: 1.000
+2025-03-28 18:06:35.500 python[56049:15235670] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-28 18:06:35.500 python[56049:15235670] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+Aligned German:
+Real:
+Number of sex-differing pairs: 274
+Mean Spearman correlation: 0.734
+Min: 0.368, Max: 0.932
+2025-03-28 18:09:26.380 python[56083:15237859] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-28 18:09:26.380 python[56083:15237859] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+Synthetic:
+Number of sex-differing pairs: 304
+Mean Spearman correlation: 0.734
+Min: 0.455, Max: 0.952
+2025-03-28 18:10:16.017 python[56091:15238471] +[IMKClient subclass]: chose IMKClient_Modern
+2025-03-28 18:10:16.017 python[56091:15238471] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
